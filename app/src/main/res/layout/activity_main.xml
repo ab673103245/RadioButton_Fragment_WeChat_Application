@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#12000000"
+    tools:context="qianfeng.radiobutton_fragment_wechat_application.MainActivity">
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_height="48dp">
+        <RadioButton
+            android:id="@+id/chat"
+            android:text="聊天"
+            android:textAllCaps="false"
+            style="@style/style_radio_button" />
+
+        <RadioButton
+            android:id="@+id/friend"
+            style="@style/style_radio_button"
+            android:text="好友"
+            android:textAllCaps="false" />
+
+        <RadioButton
+            android:id="@+id/moment"
+            style="@style/style_radio_button"
+            android:text="朋友圈"
+            android:textAllCaps="false" />
+
+        <RadioButton
+            android:id="@+id/mine"
+            style="@style/style_radio_button"
+            android:text="我的"
+            android:textAllCaps="false" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></LinearLayout>
+
+</RelativeLayout>
